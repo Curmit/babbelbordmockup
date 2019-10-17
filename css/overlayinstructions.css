@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+@font-face {
+                          font-family: "MicrosoftSansSerif";
+                          src: url('../fonts/Microsoft Sans Serif.ttf') format("truetype");
+                        }
+                        
+.overlayinstructions {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 768px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255,255,255,0.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.overlayinstructions .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 32px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 368px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.overlayinstructions .buttonbg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 694px;
+  height              : 60px;
+  width               : 170px;
+  position            : absolute;
+  margin              : 0;
+  left                : 398px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.overlayinstructions .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -4px;
+  height              : 776px;
+  width               : 982px;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.overlayinstructions .group .rectangle2 {
+  background-color    : rgba(255, 240, 103, 1.0);
+  top                 : 300px;
+  height              : 120px;
+  box-sizing          : border-box;
+  width               : 150px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(255, 240, 103, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.42;
+}
+.overlayinstructions .group .rectangle11 {
+  background-color    : rgba(255, 240, 103, 1.0);
+  top                 : 0px;
+  height              : 776px;
+  box-sizing          : border-box;
+  width               : 832px;
+  position            : absolute;
+  margin              : 0;
+  left                : 150px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(255, 241, 90, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.overlayinstructions .buttonbg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 688px;
+  height              : 60px;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0;
+  left                : 730px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.overlayinstructions .sluiten {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 701px;
+  height              : auto;
+  width               : 158px;
+  position            : absolute;
+  margin              : 0;
+  left                : 744px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.5px;
+  line-height         : 19.0px;
+}
+.overlayinstructions .hetdoelvanhetbab {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : auto;
+  width               : 728px;
+  position            : absolute;
+  margin              : 0;
+  left                : 191px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.overlayinstructions .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 32px;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 909px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.overlayinstructions .hetopzettenvanhet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 192px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 0.87);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.overlayinstructions .hetopzettenvanhet .span1 {
+  text-align          : justify;
+}
+.overlayinstructions .hetopzettenvanhet .span2 {
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  text-align          : justify;
+}
+.overlayinstructions .hetopzettenvanhet .span3 {
+  text-align          : justify;
+}
+.overlayinstructions .hetopzettenvanhet .span4 {
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  text-align          : justify;
+}
+.overlayinstructions .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 136px;
+  height              : 202px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 672px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.overlayinstructions .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 370px;
+  height              : 202px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 669px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
